@@ -1,0 +1,64 @@
+@font-face {
+  font-family: Share Tech Mono;
+  src: url(ShareTechMono-Regular.ttf);
+}
+
+body {
+  letter-spacing: 0.1px;
+  font-family: 'Share Tech Mono', Monospace, Courier;
+  font-weight: 400;
+  font-size: 17px;
+  color: #c8c8c8;
+  min-height: 100%;
+  background: #222;
+}
+
+a {
+  color: #c8c8c8;
+	text-decoration: none;
+}
+
+hr {
+  border: 1px dashed #c8c8c8;
+}
+
+.banner {
+  margin: 5% 20% 0 18%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  padding: 10px;
+  margin: 3% 18%;
+}
+
+.grid-item {
+  padding: 0 1rem;
+}
+
+.title {
+  display: inline-block;
+  margin-top: 20px;
+	text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+  margin-top: 3px;
+  margin-left: -16px;
+  padding-left: 0;
+}
+
+li {
+  padding-left: 1em;
+  text-transform: lowercase;
+}
+
+li:before {
+  content: "×";
+  padding-right: 5px;
+}
